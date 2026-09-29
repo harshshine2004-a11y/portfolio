@@ -240,7 +240,7 @@ export const experienceData = [
     role: "Training & Placement Cell Intern",
     organization: "JECRC University",
     category: "Internships",
-    period: "18th March,2026 - Present",
+    period: "18th March,2026 - september,2026",
     location: "Jaipur, Rajasthan",
     description:
       "Supporting the university Training & Placement Cell by managing placement operations, student engagement, and process automation initiatives.",
@@ -261,6 +261,32 @@ export const experienceData = [
 
   {
    id: 2,
+   role: "Participant",
+   organization: "Smart India Hackathon 2026",
+   category: "Hackathons",
+   period: "2026",
+   location: "National Level",
+   description:
+    "Secured a Top 10 position in the Smart India Hackathon 2026 preliminary selection by developing a technology-driven solution focused on addressing a real-world problem through AI and data-driven approaches.",
+   bullets: [
+    "Secured a Top 10 position in the Smart India Hackathon 2026 preliminary selection at the institute level.",
+    "Developed an AI-driven solution focused on analyzing and integrating SAR/EO satellite imagery with AIS vessel data for detecting and monitoring oil spills.",
+    "Worked on combining satellite-based Earth Observation data and Automatic Identification System (AIS) data to improve the identification and tracking of potential oil-spill incidents.",
+    "Contributed to problem analysis, solution architecture, prototype development, data processing, and technical presentation during the preliminary evaluation."
+   ],
+   techStack: [
+    "Python",
+    "Artificial Intelligence",
+    "Computer Vision",
+    "Satellite Data",
+    "Data Analytics",
+    "AIS Data",
+    "SAR/EO Imagery"
+   ]
+},
+
+  {
+   id: 3,
    role: "Participant",
    organization: "Bharatiya Antariksh Hackathon 2026",
    category: "Hackathons",
@@ -286,7 +312,7 @@ export const experienceData = [
   },
 
  {
-   id: 3,
+   id: 4,
    role: "Smart India Hackathon Participant",
    organization: "JECRC University",
    category: "Hackathons",
@@ -309,7 +335,7 @@ export const experienceData = [
   },
 
   {
-    id: 4,
+    id: 5,
     role: "Participant",
     organization: "IIT Delhi zkFHE Hackathon",
     category: "Hackathons",
@@ -331,7 +357,7 @@ export const experienceData = [
   },
 
   {
-    id: 5,
+    id: 6,
     role: "Participant",
     organization: "Pixel Palettes Hackathon",
     category: "Hackathons",
@@ -354,7 +380,7 @@ export const experienceData = [
   },
 
   {
-    id: 6,
+    id: 7,
     role: "Participant",
     organization: "Execute 5.0 - E-Summit'26",
     category: "Hackathons",
@@ -376,7 +402,7 @@ export const experienceData = [
   },
 
   {
-    id: 7,
+    id: 8,
     role: "Participant",
     organization: "HackCrux",
     category: "Hackathons",
@@ -399,7 +425,7 @@ export const experienceData = [
   },
 
   {
-    id: 8,
+    id: 9,
     role: "Participant",
     organization: "InnoFusion 2.0",
     category: "Hackathons",
@@ -422,7 +448,7 @@ export const experienceData = [
   },
 
   {
-    id: 9,
+    id: 10,
     role: "B.Tech in Computer Science Engineering (AI & Data Science)",
     organization: "JECRC University",
     category: "Education",
@@ -446,7 +472,7 @@ export const experienceData = [
   },
 
  {
-   id: 10,
+   id: 11,
    role: "Strategic & Leadership Coordinator",
    organization: "Zarurat Initiative",
    category: "Leadership",
@@ -470,7 +496,7 @@ export const experienceData = [
   },
 
   {
-   id: 11,
+   id: 12,
    role: "Core Team Member",
    organization: "Maker's Space Club",
    category: "Leadership",
@@ -494,7 +520,7 @@ export const experienceData = [
   },
 
   {
-    id: 12,
+    id: 13,
     role: "Open Source Contributor",
     organization: "GitHub",
     category: "Open Source",
