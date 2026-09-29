@@ -21,7 +21,7 @@ export default function ResumeModal({ isOpen, onClose }) {
           className="fixed inset-0 bg-black/85 backdrop-blur-md cursor-pointer"
         />
 
-        {/* Modal Sheet Window */}
+        {/* Modal */}
         <motion.div
           initial={{ opacity: 0, scale: 0.95, y: 20 }}
           animate={{ opacity: 1, scale: 1, y: 0 }}
@@ -41,7 +41,7 @@ export default function ResumeModal({ isOpen, onClose }) {
             {/* Controls */}
             <div className="flex items-center gap-2 sm:gap-3">
 
-              {/* Download Resume */}
+              {/* Download */}
               <a
                 href={resumePath}
                 download="Harsh_Kumar_Resume.pdf"
@@ -51,7 +51,7 @@ export default function ResumeModal({ isOpen, onClose }) {
                 <span>Download Resume</span>
               </a>
 
-              {/* Open PDF in New Tab */}
+              {/* Open in New Tab */}
               <a
                 href={resumePath}
                 target="_blank"
@@ -75,7 +75,7 @@ export default function ResumeModal({ isOpen, onClose }) {
             </div>
           </div>
 
-          {/* Actual Updated Resume PDF */}
+          {/* Updated Resume PDF */}
           <div className="w-full h-[calc(92vh-64px)] bg-gray-200">
             <iframe
               src={resumePath}
@@ -89,4 +89,3 @@ export default function ResumeModal({ isOpen, onClose }) {
     </AnimatePresence>
   );
 }
-
