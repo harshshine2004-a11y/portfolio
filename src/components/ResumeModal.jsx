@@ -1,4 +1,3 @@
-```jsx
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Download, ExternalLink } from 'lucide-react';
@@ -90,4 +89,4 @@ export default function ResumeModal({ isOpen, onClose }) {
     </AnimatePresence>
   );
 }
-```
+
